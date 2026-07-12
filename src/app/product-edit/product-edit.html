@@ -1,0 +1,31 @@
+
+
+<div style="
+  background-color:#f9f9ff;
+  padding:30px;
+  max-width:400px;
+  margin:50px auto;
+  border-radius:10px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.1);
+  text-align:center;
+">
+
+  <h3 style="color:#3f51b5;">{{'EDIT_PRODUCT' | translate}}</h3>
+
+  <form [formGroup]="productForm">
+    <mat-form-field appearance="outline" style="width:300px;">
+      <mat-label>Name</mat-label>
+      <input matInput formControlName="name" placeholder="Enter product name">
+    </mat-form-field>
+
+    <br><br>
+
+    <!-- PRIMARY COLOR BUTTONS -->
+    <div style="display:flex; gap:12px; justify-content:center;">
+  <button mat-flat-button color="primary" (click)="save()">{{'SAVE' | translate}}</button>
+  <button mat-flat-button color="primary" (click)="goBack()">{{'GO_BACK' | translate}}</button>
+</div>
+
+  </form>
+
+</div>

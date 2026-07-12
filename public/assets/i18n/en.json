@@ -1,0 +1,40 @@
+{
+    "APP_TITLE" : "My Products App",
+    "PRODUCTS":"Products",
+    "ADD_PRODUCT":"Add products",
+    "EDIT_PRODUCT":"Edit products",
+    "SAVE":"save",
+    "PRODUCT_NAME":"Product Name",
+    "GO_BACK":  " back to products page"  ,
+"LIST": "list the products",
+"SUBMIT":"save the product",
+"BACK_TO_LIST":"back to products page",
+"LOGIN":"login",
+"LOGOUT":"logout",
+"ABOUT_PAGE":"About page",
+"LOGIN_PAGE":"login page",
+"HOME_PAGE":"Home page",
+"PRODUCT_DETAILS":"product details",
+
+"EMPLOYEE_MANAGEMENT_SYSTEM": "Employee Management System",
+  "NAME": "Name",
+  "EMAIL": "Email",
+  "DEPARTMENT": "Department",
+  "SALARY": "Salary",
+  "ACTIONS": "Actions",
+  "EDIT": "Edit",
+  "DELETE": "Delete",
+  "ADD_EMPLOYEE": "Add Employees",
+  "UPDATE_EMPLOYEE": "Update Employees",
+  "VIEW_EMPLOYEES": "View Employees",
+  "CANCEL": "Cancel",
+  "NO_EMPLOYEES": "No employees to display",
+  "EMPLOYEE_DESCRIPTION": "This Employee Management System is a simple and efficient Angular-based web application that enables users to seamlessly manage employee information by adding new employees, viewing the complete list of existing employees, updating their details whenever changes occur, and removing records that are no longer needed, all through a clean, responsive, and easy-to-navigate interface designed to save time and reduce the effort involved in traditional manual employee data handling."
+
+
+
+
+
+}
+    
+

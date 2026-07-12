@@ -1,0 +1,41 @@
+<ul style="list-style: none; padding: 0; max-width: 400px;">
+
+  @for (product of products; track product.id) {
+    <li
+      style="
+        background-color: #f5f7fa;
+        padding: 10px 15px;
+        margin-bottom: 8px;
+        border-radius: 6px;
+        font-size: 15px;
+      ">
+      
+      {{ product.name }} -
+      
+      <a
+        [routerLink]="[product.id]"
+        style="
+          color: #1e88e5;
+          text-decoration: none;
+          font-weight: 500;
+        ">
+        View
+      </a>
+      
+      |
+      
+      <a
+        [routerLink]="[product.id, 'edit']"
+        style="
+          color: #43a047;
+          text-decoration: none;
+          font-weight: 500;
+          margin-left: 6px;
+        ">
+        Edit
+      </a>
+      
+    </li>
+  }
+
+</ul>

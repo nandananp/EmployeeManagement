@@ -1,0 +1,18 @@
+<div style="
+  background-color:aquamarine;
+  min-height:70vh;
+  padding:20px;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+">
+  <h1 style="color:rgb(255, 20, 20);">{{'PRODUCTS' | translate}}</h1>
+
+  <a routerLink="list">{{'LIST' | translate}}</a><br>
+  <a routerLink="add">{{'ADD_PRODUCT' | translate}}</a>
+
+  <router-outlet></router-outlet>
+</div>

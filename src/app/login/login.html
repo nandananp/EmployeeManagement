@@ -1,0 +1,19 @@
+<div style="
+    background-color:paleturquoise;
+    min-height: 100vh;
+    padding: 40px;
+    text-align: center;
+">
+
+  <p style="color: crimson; font-size: 20px; font-weight: 600;">
+    {{'LOGIN_PAGE' | translate}}
+  </p>
+ 
+  <form (ngSubmit)="login()">
+    <input type="text" [(ngModel)] = "username" name="username" required><br><br>
+    <input type="password"[(ngModel)]="password" name="password" placeholder="password"required>
+    <br><br>
+    <button  (click)="login()">{{'LOGIN' | translate}}</button>
+    <button (click) = "logout()" >{{'LOGOUT' | translate}}</button>
+  </form>
+</div>

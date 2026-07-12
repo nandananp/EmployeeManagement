@@ -1,0 +1,36 @@
+{
+"APP_TITLE" : "Mon application de produits",
+"PRODUCTS":"Produits",
+"ADD_PRODUCT":"Ajouter des produits",
+"EDIT_PRODUCT":"Modifier les produits",
+"SAVE":"Enregistrer",
+"PRODUCT_NAME":"Nom du produit",
+"GO_BACK":  "Retour à la page des produits",
+"LIST": "Afficher la liste des produits",
+"SUBMIT":"Enregistrer le produit",
+"BACK_TO_LIST":"Retour à la page des produits",
+"LOGIN":"Connexion",
+"LOGOUT":"Déconnexion",
+"ABOUT_PAGE":"À propos",
+"LOGIN_PAGE":"Page de connexion",
+"HOME_PAGE":"Page d'accueil",
+"PRODUCT_DETAILS":"Détails du produit",
+
+
+
+"NAME": "Nom",
+  "EMAIL": "E-mail",
+  "DEPARTMENT": "Département",
+  "SALARY": "Salaire",
+  "ACTIONS": "Actions",
+  "ADD_EMPLOYEE": "Ajouter un employé",
+  "UPDATE_EMPLOYEE": "Mettre à jour l'employé",
+  "VIEW_EMPLOYEES": "Voir les employés",
+  "CANCEL": "Annuler",
+  "EDIT": "Modifier",
+  "DELETE": "Supprimer",
+  "NO_EMPLOYEES": "Aucun employé à afficher",
+  "EMPLOYEE_MANAGEMENT_SYSTEM": "Système de gestion des employés",
+"EMPLOYEE_DESCRIPTION": "Cette application Angular permet d'ajouter, d'afficher, de modifier et de supprimer les informations des employés."
+
+}
