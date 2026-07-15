@@ -9,7 +9,7 @@ import { Employee, CreateEmployee } from './models/employeemodel';
   providedIn: 'root',
 })
 export class Employeeservice {
-  apiurl='https://localhost:7215/api/employee';
+  apiurl='https://employeemanagementbackend-2-1c80.onrender.com/api/Employee';
 
   constructor(private http: HttpClient){
 
