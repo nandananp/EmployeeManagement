@@ -27,7 +27,7 @@ export class Employeeservice {
     return this.http.put<Employee>(`${this.apiurl}/UpdateEmployees`, employee);
   }
 
-  deleteEmployee( id :number): Observable<any> {
-    return this.http.delete(`${this.apiurl}/DeleteEmployees?id=${id}`);
-  }
+ deleteEmployee(id: number): Observable<any> {
+  return this.http.delete(`${this.apiurl}/DeleteEmployees/${id}`);
+}
 }
